@@ -1,0 +1,28 @@
+{
+  "name": "@objectnimesis-inc/local-cache",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "author": "AlucardDev <founder@objectnimesis.com>",
+  "license": "MIT",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "objectnimesis",
+    "local-cache",
+    "cache",
+    "in-memory",
+    "caching",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "rimraf build && tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
