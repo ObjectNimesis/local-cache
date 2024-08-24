@@ -1,1 +1,0 @@
-[{"key":"user:1","ttl":0,"type":"number","value":1},{"key":"user:1:session:x","ttl":0,"type":"map","value":{"secret":"dfgdfgdf","token":"gdfgfdg"}},{"key":"set","ttl":0,"type":"set","value":[1,2,3]},{"key":"users","ttl":0,"type":"object","value":[1,2,3]}]
